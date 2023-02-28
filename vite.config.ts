@@ -4,6 +4,7 @@ import wasm from 'vite-plugin-wasm';
 
 // https://vitejs.dev/config
 export default defineConfig({
+  base: '/pest-site/',
   build: {
     target: 'esnext',
     outDir: 'www',
